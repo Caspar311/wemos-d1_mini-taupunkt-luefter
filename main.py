@@ -1,5 +1,4 @@
 import bme280 as bme280
-#from umqtt.simple import MQTTClient
 from simple import MQTTClient
 import time
 import network
