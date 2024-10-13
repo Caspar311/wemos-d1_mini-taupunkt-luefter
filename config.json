@@ -1,0 +1,19 @@
+{
+  "wlan": {
+    "ssid": "YOUR_SSID",
+    "passwort": "password"
+  },
+  "mqtt": {
+    "broker": "182.168.1.100",
+    "port": 1883,
+    "user": "MQTT_USER",
+    "passwort": "MQTT_PASWORD",
+    "client_id": "esp",
+    "topic": "esp/bme280/"
+  },
+  "sensor": {
+    "i2c_scl_pin": 5, #(wemos D1 (please delete))
+    "i2c_sda_pin": 4, #(wemos D1 (please delete))
+    "freq": 500000
+  }
+}
